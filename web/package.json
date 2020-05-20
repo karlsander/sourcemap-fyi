@@ -1,0 +1,24 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "next start",
+    "dev": "next",
+    "build": "next build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@theme-ui/core": "^0.3.1",
+    "next": "^9.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "source-map-explorer": "^2.4.2",
+    "webtreemap": "^1.0.0"
+  }
+}
