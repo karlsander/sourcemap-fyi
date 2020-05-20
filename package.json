@@ -4,6 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "yarn workspace web run start",
+    "dev": "yarn workspace web run dev",
+    "build": "yarn workspace web run build"
+  },
   "workspaces": [
     "web",
     "packages/*"
